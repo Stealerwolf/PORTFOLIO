@@ -1,0 +1,8 @@
+:root {
+  --bs-body-bg: #323232;
+}
+
+.offcanvas {
+  --bs-offcanvas-color: white;
+  background-color: black;
+}
