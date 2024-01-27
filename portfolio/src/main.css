@@ -6,3 +6,24 @@
   --bs-offcanvas-color: white;
   background-color: black;
 }
+
+.offcanvas.offcanvas-start {
+  --bs-offcanvas-width: 200px;
+}
+
+.btn {
+  margin-bottom: 30px;
+}
+
+.nome {
+  margin-bottom: 100px;
+}
+.text {
+  text-align: left;
+  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  margin-left: 14%;
+}

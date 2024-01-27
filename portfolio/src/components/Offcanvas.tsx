@@ -8,7 +8,17 @@ function Offcanvas() {
     >
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasLabel">
-          nada
+          <div>
+            <button
+              className="btn btn-primary nome"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              Davi
+            </button>
+          </div>
         </h5>
         <button
           type="button"
@@ -18,38 +28,40 @@ function Offcanvas() {
         />
       </div>
       <div className="offcanvas-body">
+        <div></div>
         <div>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <button
+            className="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            Github
+          </button>
         </div>
-        <button
-          className="btn btn-primary"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
-        >
-          Github
-        </button>
-
-        <button
-          className="btn btn-primary"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
-        >
-          X
-        </button>
-        <button
-          className="btn btn-primary"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
-        >
-          Projects
-        </button>
+        <div>
+          <button
+            className="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            X
+          </button>
+        </div>
+        <div>
+          <button
+            className="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            Projects
+          </button>
+        </div>
       </div>
     </div>
   );
