@@ -27,3 +27,8 @@
   font-size: 100px;
   margin-left: 14%;
 }
+.text-bg-dark {
+  background-color: black !important;
+  margin-left: 14%;
+  margin-top: 2%;
+}
