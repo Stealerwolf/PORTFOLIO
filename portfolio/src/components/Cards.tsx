@@ -4,33 +4,27 @@ function Cards() {
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4">
       <div className="card text-bg-dark mb-3  " style={{ maxWidth: "18rem" }}>
-        <div className="card-header">Header</div>
         <div className="card-body">
-          <h5 className="card-title">Dark card title</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <img src={Assunto} className="card-img-top" alt="profileMemoji" />
+            <h1 className="about-me">about me</h1>
           </p>
         </div>
       </div>
       <div className="card text-bg-dark mb-3  " style={{ maxWidth: "18rem" }}>
-        <img src={Assunto} className="card-img-top" alt="yeah" />
-        <div className="card-header">Header</div>
         <div className="card-body">
-          <h5 className="card-title">Dark card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p className="card-text-2">
+            Hi, my name is Davi, i'm 20 years old and a "beautiful designs"
+            enthusiast, my opinion is that a code is beautiful when it has style
+            and simply works.
           </p>
         </div>
       </div>
       <div className="card text-bg-dark mb-3 " style={{ maxWidth: "18rem" }}>
-        <div className="card-header">Header</div>
         <div className="card-body">
-          <h5 className="card-title">Dark card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <p className="card-text-3">
+            "Functionality and a stunning design go hand on hand"
+            <br /> Davi M.
           </p>
         </div>
       </div>

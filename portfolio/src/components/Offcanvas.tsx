@@ -1,3 +1,5 @@
+import Assunto2 from "../Images/Assunto2.png";
+
 function Offcanvas() {
   return (
     <div
@@ -9,15 +11,11 @@ function Offcanvas() {
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasLabel">
           <div>
-            <button
-              className="btn btn-primary nome"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"
-            >
-              Davi
-            </button>
+            <img
+              src={Assunto2}
+              className="card-img-offcanvas"
+              alt="profileMemoji"
+            />
           </div>
         </h5>
         <button
@@ -30,26 +28,14 @@ function Offcanvas() {
       <div className="offcanvas-body">
         <div></div>
         <div>
-          <button
-            className="btn btn-primary"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-          >
-            Github
-          </button>
+          <a href="https://github.com/Stealerwolf" className="btn btn-primary">
+            My github Profile
+          </a>
         </div>
         <div>
-          <button
-            className="btn btn-primary"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-          >
-            X
-          </button>
+          <a href="https://github.com/Stealerwolf" className="btn btn-primary">
+            Youtube
+          </a>
         </div>
         <div>
           <button

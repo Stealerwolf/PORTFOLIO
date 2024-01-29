@@ -12,7 +12,8 @@
 }
 
 .btn {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 80%;
 }
 
 .nome {
@@ -31,4 +32,40 @@
   background-color: black !important;
   margin-left: 14%;
   margin-top: 2%;
+  border-radius: 30px;
+  height: 180px;
+}
+.card-img-top {
+  width: 80px;
+  margin-left: -10%;
+  margin-top: 8%;
+}
+.card-img-offcanvas {
+  width: 80px;
+  margin-left: 50%;
+  margin-top: 8%;
+}
+.about-me {
+  float: right;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-right: 10%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+}
+.card-text-2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.card-text-3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20%;
 }
