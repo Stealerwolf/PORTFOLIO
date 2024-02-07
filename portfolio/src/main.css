@@ -13,7 +13,7 @@
 
 .btn {
   margin-bottom: 10px;
-  margin-top: 80%;
+  margin-top: 10%;
 }
 
 .nome {
@@ -68,4 +68,22 @@
   font-size: 16px;
   text-align: center;
   margin-top: 20%;
+}
+.btn-youtube {
+  margin-left: 20%;
+}
+.btn-projects {
+  margin-left: 20%;
+}
+
+.btn-github {
+  margin-left: 25%;
+}
+
+.card2-margin {
+  margin-left: 2%;
+}
+
+.card3-margin {
+  margin-left: 2%;
 }

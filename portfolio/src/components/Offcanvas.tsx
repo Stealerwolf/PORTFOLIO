@@ -28,25 +28,25 @@ function Offcanvas() {
       <div className="offcanvas-body">
         <div></div>
         <div>
-          <a href="https://github.com/Stealerwolf" className="btn btn-primary">
-            My github Profile
+          <a
+            href="https://github.com/Stealerwolf"
+            className="btn btn-primary btn-github "
+          >
+            Github
           </a>
         </div>
         <div>
-          <a href="https://github.com/Stealerwolf" className="btn btn-primary">
+          <a
+            href="https://github.com/Stealerwolf"
+            className="btn btn-primary btn-youtube"
+          >
             Youtube
           </a>
         </div>
         <div>
-          <button
-            className="btn btn-primary"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-          >
+          <a href="../Projects.tsx" className="btn btn-primary btn-projects ">
             Projects
-          </button>
+          </a>
         </div>
       </div>
     </div>

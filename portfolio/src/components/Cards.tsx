@@ -11,7 +11,10 @@ function Cards() {
           </p>
         </div>
       </div>
-      <div className="card text-bg-dark mb-3  " style={{ maxWidth: "18rem" }}>
+      <div
+        className="card text-bg-dark mb-3 card2-margin  "
+        style={{ maxWidth: "18rem" }}
+      >
         <div className="card-body">
           <p className="card-text-2">
             Hi, my name is Davi, i'm 20 years old and a "beautiful designs"
@@ -20,7 +23,10 @@ function Cards() {
           </p>
         </div>
       </div>
-      <div className="card text-bg-dark mb-3 " style={{ maxWidth: "18rem" }}>
+      <div
+        className="card text-bg-dark mb-3 card3-margin"
+        style={{ maxWidth: "18rem" }}
+      >
         <div className="card-body">
           <p className="card-text-3">
             "Functionality and a stunning design go hand on hand"

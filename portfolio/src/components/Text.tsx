@@ -4,7 +4,7 @@ function App() {
       A STUNNING
       <br /> DESIGN IS MORE
       <br /> THAN EYE CANDY,
-      <br /> IS THE SOUL OF
+      <br /> IT IS THE SOUL OF
       <br /> THE PRODUCT.
     </div>
   );
