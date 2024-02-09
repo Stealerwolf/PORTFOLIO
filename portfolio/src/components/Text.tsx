@@ -1,4 +1,4 @@
-function App() {
+function Text() {
   return (
     <div id="text" className="text ">
       A STUNNING
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Text;
