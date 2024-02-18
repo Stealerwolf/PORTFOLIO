@@ -1,5 +1,6 @@
 :root {
   --bs-body-bg: #323232;
+  overflow-x: hidden;
 }
 
 .offcanvas {
@@ -22,8 +23,7 @@
 .text {
   text-align: left;
   color: white;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
   font-size: 100px;
   margin-left: 14%;
@@ -50,20 +50,17 @@
   margin-top: 50px;
   font-size: 30px;
   margin-right: 10%;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
 }
 .card-text-2 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-align: center;
 }
 .card-text-3 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-align: center;
@@ -86,4 +83,14 @@
 
 .card3-margin {
   margin-left: 2%;
+}
+
+.teste {
+  font-size: 200px;
+  text-align: center;
+}
+
+.BlackPage {
+  background-color: black;
+  height: 100vh;
 }
