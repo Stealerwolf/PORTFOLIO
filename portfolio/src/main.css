@@ -94,3 +94,12 @@
   background-color: black;
   height: 100vh;
 }
+
+.BlackPageText {
+  text-align: justify;
+  color: white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  margin-left: 14%;
+}
