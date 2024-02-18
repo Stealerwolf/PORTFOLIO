@@ -1,4 +1,3 @@
-import Text from "./Text";
 import BlackPageText from "./BlackPageText";
 
 function BlackPage() {
