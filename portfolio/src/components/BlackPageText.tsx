@@ -2,9 +2,9 @@ import HereButton from "./HereButton";
 function BlackPageText() {
   return (
     <div className="BlackPageText">
-      EXPLORE MORE
+      EXPLORE ALL
       <br /> PROJECTS BY
-      <br /> CLICKING <HereButton />.
+      <br /> CLICKING <HereButton />
     </div>
   );
 }
