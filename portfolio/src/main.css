@@ -102,6 +102,7 @@
   font-weight: bold;
   font-size: 100px;
   margin-left: 14%;
+  margin-bottom: -5%;
 }
 
 .HereButton {
@@ -109,4 +110,9 @@
   border-radius: 1.5rem;
   background-color: #295ff4;
   position: static;
+}
+
+.carousel {
+  margin-left: 30%;
+  margin-right: 30%;
 }
