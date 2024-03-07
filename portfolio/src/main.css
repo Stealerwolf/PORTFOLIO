@@ -91,7 +91,7 @@
 }
 
 .BlackPage {
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 
@@ -113,6 +113,13 @@
 }
 
 .carousel {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 199px;
+  margin-right: 199px;
 }
+
+/*removes weird inherited padding that was messing with the layout and carousel */
+body {
+  padding: 0 !important;
+}
+
+/*removes weird inherited padding that was messing with the layout and carousel */
