@@ -91,7 +91,7 @@
 }
 
 .BlackPage {
-  background-color: white;
+  background-color: black;
   height: 100vh;
 }
 
@@ -109,7 +109,10 @@
   transform: translate(290px, -320px);
   border-radius: 1.5rem;
   background-color: #295ff4;
+  color: white;
+  padding: 10px;
   position: static;
+  text-decoration: none;
 }
 
 .carousel {

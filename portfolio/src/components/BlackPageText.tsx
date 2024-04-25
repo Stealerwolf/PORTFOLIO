@@ -4,7 +4,7 @@ function BlackPageText() {
     <div className="BlackPageText">
       EXPLORE ALL
       <br /> PROJECTS BY
-      <br /> CLICKING <HereButton />
+      <br /> CLICKING <a className="HereButton">HERE</a>
     </div>
   );
 }
