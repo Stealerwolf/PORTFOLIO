@@ -35,6 +35,13 @@
   border-radius: 30px;
   height: 180px;
 }
+.text-bg-wip {
+  background-color: orange !important;
+  margin-left: 14%;
+  margin-top: 2%;
+  border-radius: 30px;
+  height: 180px;
+}
 .card-img-top {
   width: 80px;
   margin-left: -10%;

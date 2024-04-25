@@ -24,6 +24,12 @@ function Cards() {
           </p>
         </div>
       </div>
+
+      <div className="card text-bg-wip mb-3 card3-margin" style={{ maxWidth: "18rem" }}>
+        <div className="card-body">
+          <p className="card-text-3">THIS WEBSITE IS A WORK IN PROGRESS</p>
+        </div>
+      </div>
     </div>
   );
 }

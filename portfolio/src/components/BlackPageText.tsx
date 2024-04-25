@@ -1,10 +1,9 @@
-import HereButton from "./HereButton";
 function BlackPageText() {
   return (
     <div className="BlackPageText">
       EXPLORE ALL
       <br /> PROJECTS BY
-      <br /> CLICKING <a className="HereButton">HERE</a>
+      <br /> CLICKING <a className="HereButton">HERE needs link</a>
     </div>
   );
 }
